@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Boreal Green"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Catastrophe Preparation Systems' },
+                        { name: 'keywords', content: 'preparation, pandemic, covid19, coronavirus, covid-19, catastrophe, earthquake, tornado, hurricane, recession, outdoors, survival, camping' },
                     ]}
                 >
                 </Helmet>
@@ -31,8 +31,8 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>About Us</h3>
+                                <p>Learn more about our philosophy</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>

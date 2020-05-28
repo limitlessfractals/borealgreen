@@ -23,7 +23,7 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Mission</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>Boreal Green makes custom preparation plans for individuals and families. We analyze all catastrophic risks and get clients ready to face them mentally, physically, and financially in all aspects of life.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -36,10 +36,16 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Philosophy</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>
+                                The name Boreal Green is inspired by <i>The Dao of Capital</i> by Mark Spitznagel, reknowned hedge fund manager. The boreal forest is a central metaphor for Spitznagel's tail risk hedging investment strategy. At Boreal Green, we also do tail risk hedging, but we are not a hedge fund or even financial advisors. We look at the big picture and make plans for dealing with tail risks in all aspects of life.
+                            </p>
+                            <p>
+                                The conifers that make up boreal forests are some of the oldest and most biologically successful species of organisms in the world, first appearing 300 million years ago and still thriving today. Conifers are adapted to handling their worst enemy &mdash; wildfires. Crowded, unsustainable growth of trees in a forest is analogous to financial bubbles. When lightning ignites wildfires, boreal forests are better prepared to thrive after the crisis than other forests. The conifers can thrive where their competitors couldn't even survive.
+                            </p>
+                            <p>
+                                At Boreal Green, we seek to prepare you and your family for uncertain and catastrophic scenarios much like how evolution has prepared boreal forests for the past 300 million years. When disaster strikes, you will be able to thrive while others are struggling to survive.
+                            </p>
+                          
                         </div>
                     </div>
                 </section>
@@ -52,10 +58,10 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Team</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Wuqiong Fan</p>
+                            <p>Jonathan Rolfsen</p>
+                            <p>Eric Anderson</p>
+                         
                         </div>
                     </div>
                 </section>
@@ -66,12 +72,14 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>White Paper</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Coming soon!</p>
+                            {/*
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
+                            */}
                         </div>
                     </div>
                 </section>

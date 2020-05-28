@@ -7,7 +7,7 @@ const BannerLanding = (props) => (
                 <h1>About Us</h1>
             </header>
             <div className="content">
-                <p>The Boreal Green philosophy</p>
+                <p>Prepare for any potential crisis the Boreal Green way.</p>
             </div>
         </div>
     </section>

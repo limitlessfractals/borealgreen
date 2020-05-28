@@ -7,8 +7,8 @@ import App from '../components/Typeform'
 const Signup = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Sign up</title>
+            <meta name="description" content="Sign up for Boreal Green" />
         </Helmet>
         
      

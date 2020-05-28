@@ -10,8 +10,10 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/landing">About Us</Link></li>
             </ul>
             <ul className="actions vertical">
-                <li><a href="/signup" className="button special fit">Get Started</a></li>
-                <li><a href="#" className="button fit">Log In</a></li>
+                <li><a href="/signup" className="button special fit">Apply now</a></li>
+                {
+                    //<li><a href="#" className="button fit">Log In</a></li>
+                }
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>

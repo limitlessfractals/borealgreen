@@ -9,7 +9,7 @@ const Banner = (props) => (
             <div className="content">
                 <p>In a world where institutions have failed, you can trust Boreal Green to prepare you and your family. We will make sure that when facing a crisis, you will thrive rather than simply survive.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    <li><a href="/signup" className="button next scrolly">Get Started</a></li>
                 </ul>
             </div>
         </div>

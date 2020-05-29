@@ -72,7 +72,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>White Paper</h3>
+                                <h3>Preparation Resources</h3>
                             </header>
                             <p>Coming soon!</p>
                             {/*

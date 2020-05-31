@@ -49,6 +49,8 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
+
+                {/*
                 <section>
                     <Link to="/signup" className="image">
                         <img src={pic09} alt="" />
@@ -65,6 +67,7 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
+                */}
                 <section>
                     <Link to="/signup" className="image">
                         <img src={pic10} alt="" />

@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import doc from '../assets/docs/Covid19.pdf'
 
 const Landing = (props) => (
     <Layout>
@@ -78,7 +79,7 @@ const Landing = (props) => (
                                 <h3>Preparation Resources</h3>
                             </header>
                             <p>
-                                <a href="/docs/Covid19.pdf" download="Covid19.pdf">COVID-19 and Biosecurity</a>
+                                <a href={doc}>COVID-19 and Biosecurity</a>
 
                             </p>
                             {/*

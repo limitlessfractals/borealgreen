@@ -78,7 +78,7 @@ const Landing = (props) => (
                                 <h3>Preparation Resources</h3>
                             </header>
                             <p>
-                                <a href="/docs/Covid19.pdf">COVID-19 and Biosecurity</a>
+                                <a href="/docs/Covid19.pdf" download="Covid19.pdf">COVID-19 and Biosecurity</a>
 
                             </p>
                             {/*

@@ -28,7 +28,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/signup" className="image">
+                    <Link to="/../assets/images/Covid19_Biosecurity.pptx" className="image">
                         <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
@@ -77,7 +77,10 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Preparation Resources</h3>
                             </header>
-                            <p>Coming soon!</p>
+                            <p>
+                                <a href="/docs/Covid19.pdf">COVID-19 and Biosecurity</a>
+
+                            </p>
                             {/*
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>

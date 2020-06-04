@@ -1,8 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
-import Layout from './layout'
 
-import pic11 from '../assets/images/pic11.jpg'
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 class App extends React.Component {
